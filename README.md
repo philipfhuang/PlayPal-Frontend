@@ -63,4 +63,4 @@ You can start editing the pages by modifying `app/page.js`. The page will auto-u
 
 This project utilizes `next/font` to optimize and load Inter, a custom Google Font.
 
-Thank you for contributing to PlayPal! If you have any questions or need assistance, feel free to reach out to the Big Cow King team. Let's make sports more accessible and enjoyable for everyone! 🏀🏈🎾
+Let's make sports more accessible and enjoyable for everyone! 🏀🏈🎾
