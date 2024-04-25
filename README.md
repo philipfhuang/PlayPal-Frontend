@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PlayPal Frontend
+
+## Project Overview
+
+### Project Name: PlayPal
+- Frontend Repo: [PlayPal Frontend Repo](https://github.com/Big-Cow-King/PlayPal-Frontend)
+- Backend Repo: [PlayPal Backend Repo](https://github.com/Big-Cow-King/PlayPal-Backend)
+
+PlayPal aims to simplify the process of finding sports partners and organizing sports activities while fostering a community of sports enthusiasts. The web application allows users to create, join, or be invited to sports events or rooms based on location, sport of choice, and availability. Users can view event details such as date, time, location, and duration, as well as engage in group discussions and private chats.
+
+## Key Users
+
+1. **Sports Enthusiasts:** Individuals seeking partners for sports activities, benefiting from finding events and people matching their interests and schedules.
+2. **Team Organizers:** Organizers of team sports activities can efficiently manage players, locations, and matches.
+3. **Event Organizers:** Organizations hosting events can arrange, manage registrations, and communicate with participants effectively.
+4. **Clubs & Communities:** Clubs can manage events, grow their community, and engage members by promoting activities and events through the platform.
+
+## Scenario Examples
+
+- **Ben and Steven:** Professional players seeking partners for badminton doubles create an event on PlayPal, allowing nearby users to see event information and request to join.
+- **UTM Tennis Club:** Organizes recurring tennis games using PlayPal, managing groups, sending reminders, and updating schedules efficiently.
+
+## Software Engineering Principles
+
+### Next JS + Django
+
+- **Modularity:** Utilize Django's app structure and Next JS's component-based approach for reusable modules and UI elements.
+- **Separation of Concerns:** Django's MVT pattern separates logic, data, and presentation layers, while Next JS employs component-based structure.
+- **Anticipation of Change:** Apply normalization to database modules in Django and utilize flexible design patterns.
+- **Abstraction:** Abstract queries and operations in Django using ORM and utilize custom hooks and components in Next JS.
+- **Loose Coupling and Cohesion:** Employ RESTful API design in Django and manage state locally within components in Next JS.
+
+## Design Principles
+
+- **Connectivity:** Dedicated chat functions for events and personal interactions foster community engagement.
+- **Flexibility:** Support a wide range of sports and user skill levels for both spontaneous matches and planned events.
+- **Reliability:** Ensure event information is constantly updated and accurate.
+- **Privacy:** Safely store and encrypt user data, allowing users to control their information and visibility.
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+git clone https://github.com/Big-Cow-King/PlayPal-Frontend.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Run the development server:
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open http://localhost:3000 in your browser to see the result.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You can start editing the pages by modifying `app/page.js`. The page will auto-update as you edit the file.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This project utilizes `next/font` to optimize and load Inter, a custom Google Font.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for contributing to PlayPal! If you have any questions or need assistance, feel free to reach out to the Big Cow King team. Let's make sports more accessible and enjoyable for everyone! 🏀🏈🎾
